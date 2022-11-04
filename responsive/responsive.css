@@ -1,0 +1,162 @@
+@media(max-width: 1280px){
+    section{
+        padding: 5% 0;
+    }
+
+    .products .content h2 {
+        font-size: 57px;
+        margin-top: 35px;
+    }
+
+    .container{
+        padding: 0 5%;
+    }
+}
+
+@media(max-width: 1000px){
+    section{
+        padding-top: 10%;
+    }
+}
+
+@media(max-width: 810px){
+    section{
+        padding-top: 13%;
+    }
+}
+
+@media(max-width: 768px){
+    .header label{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #f9f9f9;
+        padding: 0 8px;
+        border-top: 1px solid rgba(0,0,0,.2);
+        box-shadow: 0 8px 16px rgba(0,0,0,.2);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+    }
+
+
+    .header .navbar a{
+        display: block;
+        margin: 15px !important; 
+        padding: 15px !important;
+        background: #fff;
+        border-left: 3px solid red;
+    }
+
+    .header input:checked ~ .navbar{
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    .header input:checked ~ label::before{
+        content: '\f00d';
+    }
+
+
+
+
+
+
+}
+
+@media(max-width: 664px){
+    section{
+        padding-top: 22%;
+    }
+
+    .products .content h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .solutions .content h2 {
+        font-size: 45px;
+        line-height: 48px;
+    }
+
+    .resource .content h2 {
+        font-size: 50px;
+    }
+
+    .comision .content h2 {
+        font-size: 43px;
+        line-height: 47px;
+    }
+
+    .pricing .plan-items h2 {
+        font-size: 45px;
+    }
+
+    .p-style{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .title-heading {
+        font-size: 31px;
+    }
+
+    .pricing .plan-items p {
+        padding: 10px 40px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .news .news-text h2 {
+        font-size: 27px;
+    }
+
+    .news .news-text {
+        padding: 33px 0;
+    }
+
+}
+
+@media(max-width: 600px){
+    .resource .container .img-w{
+        padding: 70px 0;
+    }
+
+    .working .container .image img{
+        padding: 70px 0;
+    }
+}
+
+@media(max-width: 508px){
+    .products .content h2 {
+        font-size: 35px;
+        line-height: 44px;
+    }
+
+    section{
+        padding-top: 37%;
+    }
+
+    .title-heading {
+        font-size: 23px;
+    }
+}
+
+@media(max-width: 377px){
+
+    section{
+        padding-top: 49%;
+    }
+}
+
+@media(max-width: 296px){
+
+    section{
+        padding-top: 75%;
+    }
+}
